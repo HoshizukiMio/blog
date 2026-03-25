@@ -166,7 +166,7 @@ export const siteConfig: SiteConfig = {
 
 		homeText: {
 			enable: true, // 在主页显示自定义文本
-			title: "わたしの部屋", // 主页横幅主标题
+			title: "星月澪の幻想笔记", // 主页横幅主标题
 
 			subtitle: [
 				"特別なことはないけど、君がいると十分です",
@@ -282,21 +282,21 @@ export const navBarConfig: NavBarConfig = {
 			children: [
 				{
 					name: "GitHub",
-					url: "https://github.com/matsuzaka-yuki/Mizuki",
+					url: "https://github.com/HoshizukiMio",
 					external: true,
 					icon: "fa7-brands:github",
 				},
 				{
 					name: "Bilibili",
-					url: "https://space.bilibili.com/701864046",
+					url: "https://space.bilibili.com/348794946",
 					external: true,
 					icon: "fa7-brands:bilibili",
 				},
 				{
-					name: "Gitee",
-					url: "https://gitee.com/matsuzakayuki/Mizuki",
+					name: "Mio's Gitea",
+					url: "https://git.hoshizukimio.com/HoshizukiMio",
 					external: true,
-					icon: "mdi:git",
+					icon: "simple-icons:gitea",
 				},
 			],
 		},
@@ -385,9 +385,9 @@ export const profileConfig: ProfileConfig = {
 			url: "https://space.bilibili.com/348794946",
 		},
 		{
-			name: "Gitee",
-			icon: "mdi:git",
-			url: "https://gitee.com/HoshizukiMio",
+			name: "Mio's Gitea",
+			icon: "simple-icons:gitea",
+			url: "https://git.hoshizukimio.com/HoshizukiMio",
 		},
 		{
 			name: "GitHub",
@@ -395,9 +395,9 @@ export const profileConfig: ProfileConfig = {
 			url: "https://github.com/HoshizukiMio",
 		},
 		{
-			name: "Codeberg",
-			icon: "simple-icons:codeberg",
-			url: "https://codeberg.org",
+			name: "Telegram",
+			icon: "fa7-brands:telegram",
+			url: "https://t.me/hoshizukimio_desu",
 		},
 		{
 			name: "Discord",
